@@ -1,5 +1,4 @@
 class Solution{
-    //Complete the function and return minimum number of operations
     public:
     int specialPalindrome(string s1, string s2){
         //Code Here
