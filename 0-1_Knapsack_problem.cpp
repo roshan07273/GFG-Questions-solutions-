@@ -19,7 +19,7 @@ class Solution
        vector<vector<int>>dp(n , vector<int>(W+1 , 0));
        // ASWER 1 return fun(n-1, W , wt , val , dp);
        
-       //ANSWER 2
+       //2ANS
        for(int weight = wt[0] ; weight <= W ; weight++) dp[0][weight] = val[0];
        
        for(int ind = 1 ; ind < n ; ind++){
